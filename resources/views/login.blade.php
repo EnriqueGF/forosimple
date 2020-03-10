@@ -1,4 +1,5 @@
 @extends('layout')
+@section('titulo', 'Login')
 @section('contenido')
     <div class="container-fluid text-center">
         <div class="row content">

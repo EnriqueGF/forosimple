@@ -452,12 +452,22 @@ class ComposerStaticIniteaf179e5b7cded60026afd8c56fd3b3f
                 0 => __DIR__ . '/..' . '/scrivo/highlight.php',
             ),
         ),
+        'C' => 
+        array (
+            'ChrisKonnertz\\BBCode' => 
+            array (
+                0 => __DIR__ . '/..' . '/chriskonnertz/bbcode/src',
+            ),
+        ),
     );
 
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\InicioController' => __DIR__ . '/../..' . '/app/Http/Controllers/InicioController.php',
+        'App\\Http\\Controllers\\TemasController' => __DIR__ . '/../..' . '/app/Http/Controllers/TemasController.php',
+        'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -513,6 +523,8 @@ class ComposerStaticIniteaf179e5b7cded60026afd8c56fd3b3f
         'Carbon\\Traits\\Units' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Units.php',
         'Carbon\\Traits\\Week' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Week.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
+        'ChrisKonnertz\\BBCode\\BBCode' => __DIR__ . '/..' . '/chriskonnertz/bbcode/src/ChrisKonnertz/BBCode/BBCode.php',
+        'ChrisKonnertz\\BBCode\\Tag' => __DIR__ . '/..' . '/chriskonnertz/bbcode/src/ChrisKonnertz/BBCode/Tag.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',

@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('inicio');
-})->name("inicio");
+Route::get('/', "InicioController@listarHilos")->name("inicio");
 
 Route::get('/login', "UserController@loginView")->name("login");
 Route::post('/login', "UserController@loginPost")->name("login-post");
@@ -24,3 +22,10 @@ Route::get('/register', "UserController@registerView")->name("register");
 Route::post('/register', "UserController@registerPost")->name("register-post");
 
 Route::get('/logout', "UserController@logout")->name("logout");
+
+Route::get('/crearTema', "TemasController@crearTemaView")->name("creartema")->middleware('auth');;
+Route::post('/crearTema', "TemasController@crearTema")->name("creartema-post")->middleware('auth');
+
+Route::get('/verTema/{id}', "TemasController@verTema")->name("vertema");;
+
+Route::post('/respondertema/{id}', "TemasController@responderTema")->name("respondertema-post")->middleware('auth');

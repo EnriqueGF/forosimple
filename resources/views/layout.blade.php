@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Bootstrap Example</title>
+    <title>@yield('titulo')</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{asset('/editor-minified/themes/default.min.css')}}" id="theme-style" />
+    <script src="{{asset('/editor-minified/sceditor.min.js')}}"></script>
+    <script src="{{asset('/editor-minified/icons/monocons.js')}}"></script>
+    <script src="{{asset('/editor-minified/formats/bbcode.js')}}"></script>
     <style>
         /* Remove the navbar's default margin-bottom and rounded borders */
         .navbar {
@@ -64,12 +68,16 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route("register")}}"><span class="glyphicon glyphicon-log-in"></span> Registrarse</a></li>
                 </ul>
-                @else
+            @else
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route("logout")}}"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
                 </ul>
-
             @endif
+            @if(Auth::check())
+                <ul class="nav navbar-nav">
+                    <li @if(Route::currentRouteName() == 'creartema')class="active" @endif><a href="{{route("creartema")}}">Crear tema</a></li>
+                </ul>
+           @endif
         </div>
     </div>
 </nav>

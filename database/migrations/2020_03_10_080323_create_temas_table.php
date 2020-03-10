@@ -18,8 +18,8 @@ class CreateTemasTable extends Migration
             $table->bigInteger('idAutor')->unsigned();
             $table->foreign('idAutor')->references('id')->on('users')->onDelete('cascade');
             $table->string('titulo');
-            $table->string('mensaje');
-            $table->integer('numeroLikes');
+            $table->text('mensaje');
+            $table->integer('numeroLikes')->default(0);
             $table->timestamps();
         });
     }

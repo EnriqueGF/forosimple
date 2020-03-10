@@ -16,10 +16,12 @@ class CreateMensajesTable extends Migration
         Schema::create('mensajes', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('idAutor')->unsigned();
-            $table->foreign('idAutor')->references('id')->on('users')->onDelete('cascade');
-            $table->string('mensaje');
-            $table->integer('numeroLikes');
+            $table->bigInteger('idTema')->unsigned();
+            $table->text('mensaje');
+            $table->integer('numeroLikes')->default(0);
             $table->timestamps();
+            $table->foreign('idTema')->references('id')->on('temas')->onDelete('cascade');
+            $table->foreign('idAutor')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

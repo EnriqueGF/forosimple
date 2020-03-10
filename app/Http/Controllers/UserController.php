@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\MessageBag;
 use App\User;
+use Illuminate\Support\Facades\Storage;
 
 class UserController extends Controller
 {
@@ -56,15 +57,19 @@ class UserController extends Controller
         $validator = $request->validate([
             'name'      => 'required',
             'email'     => 'required|email|max:255',
-            'password'  => 'required|max:255'
+            'password'  => 'required|max:255',
+            'avatar'    => 'required|image'
         ]);
 
-        if (User::create([
+
+        if ($user = User::create([
             'name'      => $request->name,
             'email'     => $request->email,
             'password'  => $request->password
         ]))
         {
+            Storage::disk('local')->put('/public/'.$user->id.'/avatar.jpg', file_get_contents($request->avatar));
+
             Auth::attempt(['email'     => $request->email,
             'password'  => $request->password]);
 
