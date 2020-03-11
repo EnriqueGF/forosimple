@@ -58,4 +58,22 @@ class TemasController extends Controller
         return(redirect()->back());
     }
 
+    public function likeTema(Request $request, $idTema) {
+
+        $tema = Tema::find($idTema);
+        $tema->numeroLikes = $tema->numeroLikes + 1;
+        $tema->save();
+        return(redirect()->back());
+
+
+    }
+
+    public function likeMensaje(Request $request, $idMensaje) {
+
+        $mensaje = Mensaje::find($idMensaje);
+        $mensaje->numeroLikes = $mensaje->numeroLikes + 1;
+        $mensaje->save();
+        return(redirect()->back());
+
+    }
 }

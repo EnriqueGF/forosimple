@@ -26,6 +26,9 @@ Route::get('/logout', "UserController@logout")->name("logout");
 Route::get('/crearTema', "TemasController@crearTemaView")->name("creartema")->middleware('auth');;
 Route::post('/crearTema', "TemasController@crearTema")->name("creartema-post")->middleware('auth');
 
-Route::get('/verTema/{id}', "TemasController@verTema")->name("vertema");;
+Route::get('/verTema/{id}', "TemasController@verTema")->name("vertema");
 
 Route::post('/respondertema/{id}', "TemasController@responderTema")->name("respondertema-post")->middleware('auth');
+
+Route::get('/likeTema/{id}', "TemasController@likeTema")->name("likeTema");
+Route::get('/likeMensaje/{id}', "TemasController@likeMensaje")->name("likeMensaje");

@@ -21,7 +21,7 @@
                                 <li>
                                     {{$tema->numeroLikes}} likes
                                 </li>
-                                <li><i class="glyphicon glyphicon-thumbs-up"></i></li>
+                                <li><a href="{{route('likeTema', $tema->id)}}"><i class="glyphicon glyphicon-thumbs-up"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                                     <li>
                                         {{$mensaje->numeroLikes}} likes
                                     </li>
-                                    <li><i class="glyphicon glyphicon-thumbs-up"></i></li>
+                                    <li><a href="{{route('likeMensaje', $mensaje->id)}}"><i class="glyphicon glyphicon-thumbs-up"></i></a></li>
                                 </ul>
                             </div>
                         </div>

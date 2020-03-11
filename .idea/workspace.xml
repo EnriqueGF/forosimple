@@ -2,97 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f8e4d7-3df6-46dd-8127-5833b30a9b79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TemasController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/formats/bbcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/formats/xhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/icons/material.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/icons/monocons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/jquery.sceditor.bbcode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/jquery.sceditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/jquery.sceditor.xhtml.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/plugins/autosave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/plugins/autoyoutube.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/plugins/dragdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/plugins/format.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/plugins/plaintext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/plugins/strictbbcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/plugins/undo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/plugins/v1compat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/sceditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/themes/content/default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/themes/default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/themes/defaultdark.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/themes/famfamfam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/themes/modern.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/themes/office-toolbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/themes/office.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editor-minified/themes/square.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/alien.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/angel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/angry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/blink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/blush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/cheerful.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/cool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/credits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/cwy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/devil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/dizzy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/ermm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/getlost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/grin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/happy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/kissing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/laughing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/ninja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/pinch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/pouty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/sad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/shocked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/sick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/sideways.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/silly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/sleeping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/tongue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/unsure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/w00t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/wassat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/whistling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/wink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/emoticons/wub.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/storage/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/temas/creartema.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/temas/vertema.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/foro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/foro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_10_080323_create_temas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_10_080323_create_temas_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_10_080331_create_mensajes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_10_080331_create_mensajes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TemasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TemasController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/inicio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicio.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/temas/vertema.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/temas/vertema.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,6 +146,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -253,6 +171,7 @@
       <updated>1583827335865</updated>
       <workItem from="1583827337527" duration="5286000" />
       <workItem from="1583861007107" duration="11100000" />
+      <workItem from="1583911982643" duration="1772000" />
     </task>
     <servers />
   </component>
@@ -267,5 +186,9 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1344.800@0.0.1344.800" timestamp="1583861396275" />
+    <state x="364" y="103" key="SettingsEditor" timestamp="1583912045482">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="364" y="103" key="SettingsEditor/0.0.1707.920/3840.486.1920.999@0.0.1707.920" timestamp="1583912045482" />
   </component>
 </project>
