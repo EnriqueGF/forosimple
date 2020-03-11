@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61f8e4d7-3df6-46dd-8127-5833b30a9b79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TemasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TemasController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inicio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicio.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/temas/vertema.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/temas/vertema.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="61f8e4d7-3df6-46dd-8127-5833b30a9b79" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +162,7 @@
       <updated>1583827335865</updated>
       <workItem from="1583827337527" duration="5286000" />
       <workItem from="1583861007107" duration="11100000" />
-      <workItem from="1583911982643" duration="1772000" />
+      <workItem from="1583911982643" duration="2415000" />
     </task>
     <servers />
   </component>
